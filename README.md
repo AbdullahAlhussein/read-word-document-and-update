@@ -5,7 +5,7 @@ read template docx file and set attribute java
 #### ملاحظة - ملف word ممكن مايفهم {Example}$ في بعض الاحيان خاصه مع الخطاب المكتوب بالغه العربية  فتحتاج تكتب {Example}$ في المتصفح بعدها تنسخه و تلصقه في ملف word
 
 
-
+### https://poi.apache.org/
 ### The program reads a Docx file and then goes through all the content and searches for variables ${Example} to be replaced by its values
 
 
