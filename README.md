@@ -1,12 +1,17 @@
 # read-word-document-and-update
 read template docx file and set attribute java
 
+
+<br>
+
 ### يقرأ البرنامج ملف من نوع Docx ومن ثم يقوم بالمرور على جميع المحتوى و البحث عن المتغيرات بشكل التالي {Example}$ لكي يتم استبداله بقيمه 
 #### ملاحظة - ملف word ممكن مايفهم {Example}$ في بعض الاحيان خاصه مع الخطاب المكتوب بالغه العربية  فتحتاج تكتب {Example}$ في المتصفح بعدها تنسخه و تلصقه في ملف word
 
+<br>
 
 ### https://poi.apache.org/
-### The program reads a Docx file and then goes through all the content and searches for variables ${Example} to be replaced by its values
+### The program reads a Docx file and then goes through all the content and searches for variables ${Example} to be replaced by its values 
+<br>
 
 
 ![image0](https://user-images.githubusercontent.com/70335592/174295332-3acedc42-a76b-4f43-a3fe-43be1fde4ff5.png)
