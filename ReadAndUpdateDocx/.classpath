@@ -6,11 +6,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/ِ0570417090/Desktop/ReadAndUpdateDocx/lib/log4j-api-2.17.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ِ0570417090/Desktop/ReadAndUpdateDocx/lib/log4j-core-2.17.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ِ0570417090/Desktop/ReadAndUpdateDocx/lib/poi-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ِ0570417090/Desktop/ReadAndUpdateDocx/lib/poi-ooxml-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ِ0570417090/Desktop/ReadAndUpdateDocx/lib/poi-ooxml-schemas-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ِ0570417090/Desktop/ReadAndUpdateDocx/lib/xmlbeans-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abdullah/Desktop/ReadAndUpdateDocx/lib/log4j-api-2.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abdullah/Desktop/ReadAndUpdateDocx/lib/log4j-core-2.17.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abdullah/Desktop/ReadAndUpdateDocx/lib/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abdullah/Desktop/ReadAndUpdateDocx/lib/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abdullah/Desktop/ReadAndUpdateDocx/lib/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abdullah/Desktop/ReadAndUpdateDocx/lib/xmlbeans-5.0.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
