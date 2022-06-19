@@ -11,6 +11,10 @@ read template docx file and set attribute java
 
 ### # Library has been used -> https://poi.apache.org/
 ### The program reads a Docx file and then goes through all the content and searches for variables ${Example} to be replaced by its values 
+
+```
+ docText = docText.replace("${fullName}", fullName);
+```
 ---
 
 <br>
