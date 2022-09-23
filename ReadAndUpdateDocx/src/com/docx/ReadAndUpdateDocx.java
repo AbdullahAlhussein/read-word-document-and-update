@@ -24,7 +24,7 @@ public class ReadAndUpdateDocx {
 	        obj.updateDocument(
 	                  "./input.docx",
 	                  "./output.docx",    //Example input Language LTR
-	                  "شركةالجبر",
+	                  "شركة الجبر",
 	                  "محمد ناصر احمد",
 	                  "2018/1/15",
 	                  "محاسب",
