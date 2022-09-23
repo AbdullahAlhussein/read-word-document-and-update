@@ -21,9 +21,9 @@ public class ReadAndUpdateDocx {
 
 		 ReadAndUpdateDocx obj = new ReadAndUpdateDocx();
 
-	        obj.updateDocument(
+	        obj.updateDocument(		//Example input Language LTR
 	                  "./input.docx",
-	                  "./output.docx",    //Example input Language LTR
+	                  "./output.docx",    
 	                  "شركة الجبر",
 	                  "محمد ناصر احمد",
 	                  "2018/1/15",
@@ -31,8 +31,8 @@ public class ReadAndUpdateDocx {
 	                  "11500",
 	                  "سعد الرماني");
 	 }
-//		     obj.updateDocument(
-//		             "./input.docx",     //Example input Language RTL
+//		     obj.updateDocument(	//Example input Language RTL
+//		             "./input.docx",     
 //		             "./output2.docx",       
 //		             "Algebra company",
 //		             "Mohammed ahmed alali",
