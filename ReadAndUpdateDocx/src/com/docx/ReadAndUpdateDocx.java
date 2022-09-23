@@ -13,7 +13,7 @@ import org.apache.poi.xwpf.usermodel.XWPFRun;
 public class ReadAndUpdateDocx {
 
 	/**
-	* @author  Abdullah AlHussein
+	* @author AlHussein
 	* 
 	*/
 	
@@ -24,25 +24,25 @@ public class ReadAndUpdateDocx {
 	        obj.updateDocument(
 	                  "./input.docx",
 	                  "./output.docx",    //Example input Language LTR
-	                  "STC",
+	                  "شركةالجبر",
 	                  "محمد ناصر احمد",
-	                  "2020/1/15",
-	                  "مطور برامج",
-	                  "20000",
+	                  "2018/1/15",
+	                  "محاسب",
+	                  "11500",
 	                  "سعد الرماني");
 	 }
 //		     obj.updateDocument(
 //		             "./input.docx",     //Example input Language RTL
 //		             "./output2.docx",       
-//		             "STC",
+//		             "Algebra company",
 //		             "Mohammed ahmed alali",
-//		             "2020/1/15",
-//		             "software Developer",
-//		             "20000",
+//		             "2018/1/15",
+//		             "accountant",
+//		             "11500",
 //		             "Ali nasser");
 //		}
 
-	    private void updateDocument(String input, String output, String companyName, String fullName, String startDate, String jobNmae, String salary, String director)
+	    private void updateDocument(String input, String output, String companyName, String fullName, String startDate, String jobTitles, String salary, String director)
 	            throws IOException {
 
 	            try (XWPFDocument doc = new XWPFDocument(
@@ -58,7 +58,7 @@ public class ReadAndUpdateDocx {
 	                        docText = docText.replace("${companyName}", companyName);
 	                        docText = docText.replace("${fullName}", fullName);
 	                        docText = docText.replace("${startDate}", startDate);
-	                        docText = docText.replace("${jobName}", jobNmae);
+	                        docText = docText.replace("${jobTitles}", jobNmae);
 	                        docText = docText.replace("${salary}", salary);
 	                        docText = docText.replace("${director}", director);
 	                        xwpfRun.setText(docText, 0);
